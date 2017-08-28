@@ -1,0 +1,13 @@
+*.dat
+*.pyc
+*.log
+.*
+*~
+!.gitignore
+\#*\#
+*.egg-info/
+misc/
+*.so
+build/
+*.c
+dist/
