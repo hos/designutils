@@ -9,7 +9,7 @@ dir_option = "dir"
 ext_option = "ext"
 
 parser = argparse.ArgumentParser()
-parser.add_argument('files', metavar='N', type=str, nargs='+',
+parser.add_argument('files', type=str, nargs='+',
                     help='Files for replacement')
 parser.add_argument("--dpi", type=str, help = "Output DPI")
 

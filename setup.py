@@ -38,6 +38,7 @@ setup(
     entry_points = {
         "console_scripts": [
             "batch_export_png=designutils.bin.batch_export_png:__main__",
+            "compile_pdf=designutils.bin.compile_pdf:__main__",
         ],
     },
 )
